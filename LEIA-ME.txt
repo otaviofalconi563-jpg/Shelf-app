@@ -1,0 +1,19 @@
+SHELF V6 — VERSÃO INSTALÁVEL (PWA)
+
+O que vem aqui:
+- index.html: Shelf V6 original, sem Firebase, com escolha de capas pela galeria.
+- manifest.webmanifest: nome, ícone e configuração de instalação.
+- sw.js: cache básico para abrir o app offline depois da primeira visita.
+- icons/: ícones do Shelf.
+
+IMPORTANTE:
+Para instalar como aplicativo no Android, publique esta pasta em um endereço HTTPS.
+Abrir o index.html diretamente pelo gerenciador de arquivos não habilita a instalação PWA.
+
+Depois de publicar:
+1. Abra o endereço do Shelf no Chrome.
+2. Toque no menu ⋮.
+3. Escolha "Instalar app" ou "Adicionar à tela inicial".
+4. Confirme.
+
+Os dados continuam salvos no armazenamento do navegador daquele dispositivo. Esta versão não sincroniza automaticamente entre aparelhos.
